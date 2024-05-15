@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class SnippetPermissionApplication
 
 fun main(args: Array<String>) {
-	runApplication<SnippetPermissionApplication>(*args)
+    runApplication<SnippetPermissionApplication>(*args)
 }
