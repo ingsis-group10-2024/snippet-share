@@ -6,6 +6,6 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: snippet-permission
+      MYSQL_DATABASE: snippet-share
     ports:
       - "3308:3306"
