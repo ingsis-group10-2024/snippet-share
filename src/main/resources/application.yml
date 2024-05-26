@@ -7,6 +7,3 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://dev-cx1bv7vvef0r485d.us.auth0.com/
-
-
-
