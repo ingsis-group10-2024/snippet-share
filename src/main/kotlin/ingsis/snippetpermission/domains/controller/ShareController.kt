@@ -12,5 +12,4 @@ class ShareController {
     fun test(): String {
         return "Como anda la banda?"
     }
-
 }
