@@ -8,5 +8,4 @@ interface ShareService {
     fun share(shareDto: ShareDTO, userId: String): Share
     fun getSharedPosts(userId: String): List<Share>
     fun getSharedWithMePosts(userId: String): List<Share>
-
 }

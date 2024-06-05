@@ -36,7 +36,7 @@ class Share {
     @Column(name = "updatedAt", nullable = true)
     var updatedAt: Date? = null
 
-    constructor(id: UUID?, snippetId: String?, sharedId: String?, sharerId: String?,createdAt: Date?, updatedAt: Date?) {
+    constructor(id: UUID?, snippetId: String?, sharedId: String?, sharerId: String?, createdAt: Date?, updatedAt: Date?) {
         this.id = id
         this.snippetId = snippetId
         this.sharedId = sharedId
@@ -51,5 +51,4 @@ class Share {
         this.sharerId = sharerId
         this.createdAt = Date()
     }
-
 }

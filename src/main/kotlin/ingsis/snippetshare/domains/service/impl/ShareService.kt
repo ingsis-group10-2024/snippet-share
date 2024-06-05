@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus
 import org.springframework.stereotype.Service
 
 @Service
-class ShareService( private val shareRepository: ShareRepository): ShareService {
+class ShareService(private val shareRepository: ShareRepository) : ShareService {
 
     override fun share(shareDto: ShareDTO, userId: String): Share {
         if (shareDto.sharedId == userId) throw HTTPError("Conflict, can't share your snippet to yourself", HttpStatus.CONFLICT)
@@ -28,5 +28,6 @@ class ShareService( private val shareRepository: ShareRepository): ShareService 
     override fun getSharedWithMePosts(userId: String): List<Share> {
         return this.shareRepository.findSharedWith(userId)
     }
-
 }
+
+
