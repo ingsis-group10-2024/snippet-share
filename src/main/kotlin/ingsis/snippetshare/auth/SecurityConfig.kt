@@ -1,4 +1,4 @@
-package ingsis.snippetpermission.auth
+package ingsis.snippetshare.auth
 
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean

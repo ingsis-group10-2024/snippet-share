@@ -1,11 +1,11 @@
-package ingsis.snippetpermission
+package ingsis.snippetshare
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SnippetPermissionApplication
+class SnippetShareApplication
 
 fun main(args: Array<String>) {
-    runApplication<SnippetPermissionApplication>(*args)
+    runApplication<SnippetShareApplication>(*args)
 }
