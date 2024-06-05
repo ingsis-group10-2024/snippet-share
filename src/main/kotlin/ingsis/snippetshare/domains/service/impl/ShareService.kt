@@ -29,5 +29,3 @@ class ShareService(private val shareRepository: ShareRepository) : ShareService 
         return this.shareRepository.findSharedWith(userId)
     }
 }
-
-
